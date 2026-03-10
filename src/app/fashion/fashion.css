@@ -1,0 +1,38 @@
+.search-bar{
+    text-align:center;
+    margin:20px;
+}
+
+.search-bar input{
+    width:300px;
+    padding:8px;
+}
+
+.search-bar select{
+    padding:8px;
+}
+
+.search-bar button{
+    padding:8px 20px;
+    background:black;
+    color:white;
+    border:none;
+}
+
+.fashion-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding:20px;
+}
+
+.fashion-card{
+    text-align:center;
+}
+
+.fashion-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    cursor:pointer;
+}
